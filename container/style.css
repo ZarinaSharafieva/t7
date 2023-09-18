@@ -1,0 +1,122 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width:600px;
+    margin: 0 auto;
+}
+.block2{
+    width: 600px;
+    margin: 0 auto;
+}
+.block1{
+    width: 600px;
+    border-radius: 15px;
+    border: 1px solid #C0C0C0;
+    padding: 20px;
+    margin: 50px 0;
+}
+.mini-block{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.mini-block1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    width: 420px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.date{
+    color: #C0C0C0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: 20px 0 30px 0;
+}
+
+.name{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.id{
+    color: #C0C0C0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.block2 form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 12px;
+}
+
+
+.block2 form input{
+    width: 600px;
+    padding: 12px 0 12px 6px;
+    outline: none;
+    border: 2px solid #2f3bdda8;
+    background-color:transparent;
+    color: #2f3bdda8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.block2 form button{
+    width: 600px;
+    padding: 12px 0 12px 6px;
+    outline: none;
+    border: 2px solid #2f3bdda8;
+    background-color:transparent;
+    color: #2f3bdda8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* .todoList form input:hover{
+    border: 2px solid #2f3bdda8;
+} */
+
+.block2 form button:hover{
+    background-color: #2f3bdda8;
+    border: 2px solid transparent;
+    color: #ffffff;
+}
